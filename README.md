@@ -8,14 +8,13 @@ The Unity Game Engine is then utilized to create an immersive game environment a
 
 ## Introduction
 
-The rise of technological advancements and their effect on our daily lives has only been increasing, therefore with this in mind we created a fitness game that allows users to engage in physical activity in the comfort of their homes [1]. This game was developed to make exercising fun, interesting, and easily accessible. While there are already alternative games like Ring Fit Adventure [2] and Nintendo Switch Sport [3], they still require additional equipment which costs more money. We solve this problem by only requiring the users to have a computer and a webcam, thus vastly reducing the cost of playing our game.
+The rise of technological advancements and their effect on our daily lives has only been increasing, therefore with this in mind we created a fitness game that allows users to engage in physical activity in the comfort of their homes. This game was developed to make exercising fun, interesting, and easily accessible. While there are already alternative games like Ring Fit Adventure and Nintendo Switch Sport, they still require additional equipment which costs more money. We solve this problem by only requiring the users to have a computer and a webcam, thus vastly reducing the cost of playing our game.
 
 ## Methodology
 
 This game was primarily developed on Unity Game Engine and Python.
-Unity Game Engine is utilized to create the environment and the game mechanisms. As for Python programming, it is used to detect the pose estimation of users which will then be sent to Unity to recreate these motions in the game via the Socket library [4] that connects two nodes.
-We are using MediaPipe, an open-source framework developed by Google
-[5] to track the users' body movements. If our model detects a jump, body's position that is higher, then the character in our game will also jump, this applies to the actions: jump, slide, leaning left and right.
+Unity Game Engine is utilized to create the environment and the game mechanisms. As for Python programming, it is used to detect the pose estimation of users which will then be sent to Unity to recreate these motions in the game via the Socket library that connects two nodes.
+We are using MediaPipe, an open-source framework developed by Google to track the users' body movements. If our model detects a jump, body's position that is higher, then the character in our game will also jump, this applies to the actions: jump, slide, leaning left and right.
 
 ## Results
 
