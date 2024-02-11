@@ -24,6 +24,8 @@ Our project yielded a fully functional game with two different maps - one set du
 
 In conclusion, our capstone project resulted in our team designing and creating an exercising game that uses pose estimation to detect the motion of the users' without requiring any additional equipment. Furthermore, we use MediaPipe machine learning model and send the output data to Unity, where the character imitates the users in real-time and copies the moves they are making. Thus, resulting in an engaging and immersive game that people can play without incurring significant costs.
 
+For live demo, please click this [link](https://mohamedarfan.com/assets/liveDemo_ExerciseGame.mp4).
 
 ## Poster 
 ![Image Description](EX-RAI-Exercise_game.jpg)
+
